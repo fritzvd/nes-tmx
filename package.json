@@ -1,0 +1,34 @@
+{
+  "name": "nes-tmx",
+  "version": "0.1.0",
+  "description": "make tiled map editor maps into header files for nes development in c",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape tests/*.js && standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fritzvd/nes-tmx.git"
+  },
+  "keywords": [
+    "nesdev",
+    "nes",
+    "tiled",
+    "tmx"
+  ],
+  "author": "fritzvd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fritzvd/nes-tmx/issues"
+  },
+  "homepage": "https://github.com/fritzvd/nes-tmx#readme",
+  "devDependencies": {
+    "standard": "^6.0.8",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "through": "^2.3.8",
+    "tmx-parser": "^1.4.0",
+    "voxel-crunch": "^0.2.1"
+  }
+}
