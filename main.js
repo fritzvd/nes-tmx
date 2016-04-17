@@ -16,7 +16,7 @@ const main = function (tmxfile, collisionFilename, namFilename) {
     if (rightMapSize(firstLayer)) {
       collisionFilename = collisionFilename || tmxfile.split('.tmx')[0] + '_collision.h'
       namFilename = namFilename || tmxfile.split('.tmx')[0] + '_nametable.h'
-      exportToCollisionArray(firstLayer, collisionFilename)
+      // exportToCollisionArray(firstLayer, collisionFilename)
       exportToNamArray(firstLayer, namFilename)
     } else {
       throw new Error('Map is not the right size for the nes')

@@ -1,5 +1,3 @@
-const nestmx = require('../main')
-nestmx('./tests/data/testmap.tmx')
 const rightMapSize = require('../lib/rightMapSize')
 
 const tape = require('tape')

@@ -4,7 +4,8 @@
   "description": "make tiled map editor maps into header files for nes development in c",
   "main": "index.js",
   "scripts": {
-    "test": "tape tests/*.js && standard"
+    "test": "tape tests/*.js && standard",
+    "start": "node ./makemap"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "tape": "^4.5.1"
   },
   "dependencies": {
+    "commander": "^2.9.0",
     "through": "^2.3.8",
     "tmx-parser": "^1.4.0",
     "voxel-crunch": "^0.2.1"
