@@ -1,6 +1,6 @@
 {
   "name": "nes-tmx",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "make tiled map editor maps into header files for nes development in c",
   "main": "main.js",
   "scripts": {
@@ -30,7 +30,6 @@
   "dependencies": {
     "commander": "^2.9.0",
     "through": "^2.3.8",
-    "tmx-parser": "^1.4.0",
-    "voxel-crunch": "^0.2.1"
+    "tmx-parser": "^1.4.0"
   }
 }

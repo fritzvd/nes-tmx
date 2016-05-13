@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" renderorder="right-down" width="32" height="30" tilewidth="8" tileheight="8" nextobjectid="1">
- <tileset firstgid="1" name="tiles" tilewidth="8" tileheight="8">
+ <properties>
+  <property name="Orientation" value=""/>
+ </properties>
+ <tileset firstgid="1" name="tiles" tilewidth="8" tileheight="8" tilecount="256">
   <image source="tiles.png" width="128" height="128"/>
  </tileset>
- <layer name="Tile Layer 1" width="32" height="30">
+ <layer name="try" width="32" height="30">
   <data encoding="base64" compression="zlib">
-   eJzt08EJACAMBMG0ph1o/8XoX0gekt8MHFfBRgAAP8bdTL7butvJA6+q2+6uq251DT0O6t4NyQ==
+   eJztw0ENAAAIBKBz9g9qC1v4ETY6Savq8Xm+VNXzCwAdQQE=
   </data>
  </layer>
 </map>

@@ -17,7 +17,11 @@ Install the package:
 And use it in your project like so:
 ```javascript
 var nt = require('nes-tmx')
-nt('yourtilemap.tmx', 'colllisionmapoutput.h', 'nametableoutput.h')
+nt('yourtilemap.tmx', 'nametableoutput.h')
 ```
 
 An example of how to use it can be found in [fritzvd/emesh](https://github.com/fritzvd/emesh)
+
+# Shiru's C coding for the NES
+This is based on Shiru's RLE and UNRLE function to create small nametables to program
+the NES in C.
